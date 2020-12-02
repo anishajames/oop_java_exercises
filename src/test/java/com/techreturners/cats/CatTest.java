@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+import org.junit.Ignore;
+
 public class CatTest {
 
     @Test
@@ -63,4 +65,10 @@ public class CatTest {
         Cat domesticCat = new DomesticCat();
         assertEquals("Purrrrrrr", domesticCat.eat());
     }
+
+    // @Test
+    // public void feedTheCatRandomly() {
+    //     Cat domesticCat = new DomesticCat();
+    //     assertEquals("It will do I suppose", domesticCat.eat(true));
+    // }
 }
