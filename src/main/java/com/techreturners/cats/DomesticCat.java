@@ -2,19 +2,22 @@ package com.techreturners.cats;
 
 public class DomesticCat extends AbstractCat {
 
-    public String getSetting(){
-        return "domestic";
-    }
-
-    public int getAverageHeight(){
-        return 23;
+    public DomesticCat(){
+        this.setting = "domestic";
+        this.isAsleep = false;
+        this.averageHeight = 23;
     }
 
     public String eat(){
-        return "Purrrrrrr";
+        if(Math.random() <0.5)
+            return "Purrrrrrr";
+        else 
+            return "It will do I suppose";
     }
 
-    public String eat(boolean random){
-        return "It will do I suppose";
+    public void run() {
+        // TODO
+
     }
+
 }

@@ -14,6 +14,6 @@ interface Cat {
 
     public void wakeUp();
     
-    // public void run();
+    public void run();
 
 }
