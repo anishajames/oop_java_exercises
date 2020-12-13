@@ -12,4 +12,8 @@ public class CheetahCat extends AbstractCat {
         return "Zzzzzzz";
     }
 
+    public void run() {
+        // TODO
+    }
+
 }
